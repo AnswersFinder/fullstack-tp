@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="actualNew" type="button" onclick="actualNew()">No tengo cuenta</button> 
+    <form id="login" >
+        <label for="user">Email</label>
+        <input type="email" id="em"  value="pablo@pablo.com">
+
+        <label for="passw">Contraseña</label>
+        <input type="password" id="passw" value="">
+
+        <button type="button" onclick="login()">Ingresar</button>
+    </form>
+
+    <form id="nuevoUsuario" style="visibility: hidden">
+        <a> Alta de nuevo usuario <br></a>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" value="Pablo Miguel">
+
+        <label for="nem">Email</label>
+        <input type="email" id="nem" value="pablo@pablo.com">
+
+        <label for="nemc">Reingrese Email</label>
+        <input type="email" id="nmc" value="pablo@pablo.com">
+
+        <label for="npassw">Contraseña</label>
+        <input type="password" id="npassw" value="1234">
+
+        <label for="npasswc">Repita Contraseña</label>
+        <input type="password" id="npasswc" value="1234">
+
+        <label for="nac">Fecha Nacimiento</label>
+        <input type="date" id="nac" value="2022-12-15">
+
+        <label for="tel">Teléfono</label>
+        <input type="tel" id="tel" value="01187654321">
+
+        <label for="calle">Calle</label>
+        <input type="text" id="calle" value="Rivadavia">
+
+        <label for="altura">Número</label>
+        <input type="number" id="altura" value="9876">
+
+        <label for="adicDomicilio">Torre/piso/departamento/etc.</label>
+        <input type="text" id="adicDomicilio" value="9A">
+
+        <label for="localidad">Localidad</label>
+        <input type="text" id="localidad" value="Avellaneda">
+
+        <label for="provincia">Provincia</label>
+        <input type="text" id="provincia" value="Buenos Aires">
+
+        <label for="pais">País</label>
+        <input type="text" id="pais" value="Argentina">
+
+        <button type="button" onclick="nuevoUsuario()">Dar de Alta</button>
+    </form>
+
+    <script src="./js/loginRegistro.js"></script>
+</body>
+</html>

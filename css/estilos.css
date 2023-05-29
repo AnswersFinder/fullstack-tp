@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Comfortaa|Lato|Roboto|Sofia&display=swap');
+
+
+
+/* aplica a todo */ 
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    color: white;
+}
+
+/* FIN aplica a todo */ 
+
+/* header */
+
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+/* logo */
+
+h1 {
+    color: white;
+    font-family: gugi;
+    line-height: 2.2;
+}
+
+.logo{
+  display: flex;
+  flex: 1 1 auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+/* logo */
+
+/* buscador */ 
+
+.buscador{
+  flex: 4 1 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: -1.5%;
+}
+
+#boton-buscador{
+    border-radius: 2.25rem;
+    color:white;
+    border-color: white;
+}
+
+
+/* buscador */ 
+
+/* ingresar */ 
+
+.ingresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2 1 auto;
+}
+
+.modal-backdrop {
+    position: relative;
+    display: none;
+}
+
+
+.boton {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white
+}
+.boton:hover {
+    background: transparent;
+}
+
+/* ingresar */ 
+
+/* redes sociales  */ 
+
+.redes {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.redes a {
+    padding:10px;
+    padding-bottom:25px;
+    font-size: 30px;
+    color: white;
+}
+
+/* redes sociales  */
+
+/* nav-categorias */
+
+#buscador_mobil{
+    display :none;
+}
+.nav .categorias a {
+ color: white;
+ padding:8px;
+ font-family: Comfortaa;
+}
+.nav .categorias a:hover{
+ background:transparent;
+ font-family: Comfortaa;
+
+}
+
+h2 {
+    background: black;
+    color:white;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;    
+}
+/* nav-categorias */
+
+
+
+
+/* productos */ 
+
+.producto {
+    background: white;
+    padding: 5px 10px;
+    border: 10px;
+    flex: 1 1 auto;
+}
+
+
+h3 {
+    color: #696969;
+    font-weight: bold;
+    text-transform: none;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    background: white;
+}
+
+
+.listaProductos {
+    display: flex;
+}
+
+/* footer */ 
+
+footer {
+    background: black;
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+/* fin fotter */
+
+
+#nav-cel{
+    background: black;
+    color: white;
+}
+
+
+/* mediaQ */
+
+@media screen and (max-width:768px){
+    .redes , .buscador {
+        display: none;
+    }
+    #buscador_mobil{
+        display :inline-block;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+     .redes , .buscador {
+        display: none;
+    }
+    #buscador_mobil{
+        display :inline-block;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    #sesion {
+        display:block;
+    }
+}
+
+
+
